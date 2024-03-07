@@ -1,0 +1,192 @@
+/* common styles */
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+main {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+main section,
+footer {
+    margin-top: 100px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.btn-primary,
+.btn-secondary {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    padding: 18px 25px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #005FAC;
+    color: #FFFFFF;
+}
+
+/* header related styles */
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-container {
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    column-gap: 500px;
+}
+
+.empty-div {
+    width: 50%;
+}
+
+.banner-content {
+    text-align: end;
+    max-width: 50%;
+    padding: 150px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner-description {
+    margin-bottom: 25px;
+}
+
+/* main section styles */
+/* failures related styles */
+.failures-container {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.failures-column {
+    padding: 20px;
+}
+
+.failures-title {
+    font-size: 40px;
+}
+
+.failures-description,
+.failures-reason-list {
+    line-height: 28px;
+    font-size: 14px;
+    color: #474444;
+}
+
+.failures-column img {
+    height: 600px;
+}
+
+/* .failures-reason-list li::before{
+    content: '✔️';
+    color: #16D887
+} */
+.failures-reason-list li::marker {
+    color: #16D887
+}
+
+/* My plans related styles */
+.my-plan-title {
+    text-align: center;
+}
+
+.my-plans-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px 10px;
+
+}
+
+.plan-title {
+    color: rgb(81, 80, 80);
+}
+
+.plan-description {
+    color: rgb(100, 99, 99);
+    line-height: 0;
+}
+
+.plan-img {
+    height: 50px;
+}
+
+/* positive mindset styles */
+.positive-mindset-container {
+    background-image: url('../images/watch.png'), url('../images/gradient/gradient1.png');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    margin: 0px 100px;
+}
+
+.positive-mindset-content {
+    padding: 50px;
+    max-width: 400px;
+}
+
+.positive-mindset-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+/* footer related styles */
+footer {
+    background: #000;
+}
+
+.footer-container {
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    /* margin: 0 auto; */
+}
+
+.footer-title,
+.form-title {
+    color: #FFFFFF;
+
+}
+
+.footer-description,
+footer h6 {
+    color: lightgray;
+    font-size: small;
+}
+
+.contact-form input[type="email"] {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background: none;
+    margin-bottom: 10px;
+}
+
+.footer-column {
+    width: 400px;
+}
+
+.social-links img {
+    height: 30px;
+    margin-right: 10px;
+}
